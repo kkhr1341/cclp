@@ -1,5 +1,13 @@
 let scrollPosition;
 // モーダルウィンドウを開く
+[].forEach.call(document.getElementsByTagName('a'), function(el) {
+  el.addEventListener('click', function() {
+    console.log('Hello world!')
+    let target = $(this).data("target");
+  })
+})
+
+
 $(".js-modal-open").on("click", function () {
   let target = $(this).data("target");
   let modal = document.getElementById(target);

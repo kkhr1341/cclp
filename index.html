@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="jp">
-  <head>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -50,6 +50,15 @@
     <!-- End Google Tag Manager -->
     <title>月額制オンライン事務代行サービスCreativeConcierge | 事務業務からクリエイティブまで気軽で手頃サポート</title>
     <meta name="description" content="コンシェルジュが窓口になるオンライン事務代行サービスで御社の事務業務からクリエイティブなタスクまで効率化しませんか？ホームページ作成とチラシデザイン・リサーチと分析・事務作業と営業サポート、どんな困りごとでも月額4.5万円から解決します。採用や派遣・テンプスタッフより手頃、実務能力を持つチームの対応で品質は抜群。窓口は「コンシェルジュ」のような優秀なアシスタントだからこそ依頼するのも気軽で簡単。今だけ初期費用無料・無料トライアル実施中。" />
+    <meta property="og:title" content="月額制オンライン事務代行サービスCreativeConcierge | 事務業務からクリエイティブまで気軽で手頃サポート" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://creative-concierge.net" />
+    <meta property="og:image" content="https://creative-concierge.net/OGP.jpg" />
+    <meta property="og:site_name" content="Creative Concierge" />
+    <meta property="og:description" content="コンシェルジュが窓口になるオンライン事務代行サービスで御社の事務業務からクリエイティブなタスクまで効率化しませんか？ホームページ作成とチラシデザイン・リサーチと分析・事務作業と営業サポート、どんな困りごとでも月額4.5万円から解決します。採用や派遣・テンプスタッフより手頃、実務能力を持つチームの対応で品質は抜群。窓口は「コンシェルジュ」のような優秀なアシスタントだからこそ依頼するのも気軽で簡単。今だけ初期費用無料・無料トライアル実施中。" />
+    <!-- <meta property="fb:app_id" content="App-ID" /> -->
+    <!-- <meta name="twitter:card" content="summary" /> -->
+    <!-- <meta name="twitter:site" content="@[Twitter ID]" /> -->
     <link rel="stylesheet" href="/assets/css/reset.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
     <script>
@@ -57,6 +66,9 @@
     </script>
     <link rel="icon" href="/assets/img/icon.svg" />
     <script src="/assets/js/common.js" defer></script>
+    <script src="/assets/js/modernizr-custom.js" defer></script>
+    <script src="/assets/js/lazy.js" defer></script>
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
   </head>
   <body id="jsc">
     <!-- Google Tag Manager (noscript) -->
@@ -69,8 +81,7 @@
       </div>
       <div class="header_nav_outer">
         <div class="header_nav">
-          <a class="header_nav_a" href="#"><img class="header_nav_logo" src="/assets/img/logo.svg" alt="" /></a>
-
+          <a class="header_nav_a" href="#"><img class="header_nav_logo box" data-src="/assets/img/logo.svg" alt="" /></a>
           <nav>
             <input id="hamburger" class="hamburger" type="checkbox" />
             <label class="hamburger" for="hamburger">
@@ -78,8 +89,8 @@
             </label>
             <div id="site-navigation" class="sp_hamburger_nav_list">
               <ul class="header_nav_list">
-                <li><a href="#1">特徴</a></li>
-                <li><a href="#2">概要</a></li>
+                <li><a href="#1">概要</a></li>
+                <li><a href="#2">特徴</a></li>
                 <li><a href="#3">対応事例</a></li>
                 <li><a href="#4">料金プラン</a></li>
                 <li><a href="#5">導入の流れ</a></li>
@@ -101,10 +112,10 @@
             </div>
           </nav>
           <div class="contact_btn">
-            <a class="contact_btn_b" href="#m">
+            <a class="contact_btn_b" href="">
               <p>資料請求</p>
             </a>
-            <a class="contact_btn_g" href="#m">
+            <a class="contact_btn_g" href="">
               <p>相談する</p>
             </a>
           </div>
@@ -125,7 +136,7 @@
             </a>
           </div>
         </div>
-        <img class="sec_fv_r" src="/assets/img/top_monitor.svg" alt="" />
+        <img class="sec_fv_r box" data-src="/assets/img/top_monitor.svg" alt="" />
       </section>
       <section class="sec_01">
         <div class="contact_btn">
@@ -136,76 +147,74 @@
             <p>相談する</p>
           </a>
         </div>
-        <h2 class="sec_01_h2">
-          1分でわかる <span class="br">Creative Concierge <span class="br">(クリエイティブコンシェルジュ)</span></span>
-        </h2>
-        <img class="sec_01_img" src="/assets/img/main_sec1_mov.jpg" alt="" />
+        <h2 class="sec_01_h2">1分でわかる Creative Concierge <span class="br">(クリエイティブコンシェルジュ)</span></h2>
+        <img class="sec_01_img box" data-src="/assets/img/main_sec1_mov.jpg" alt="" />
       </section>
-      <div id="1"></div>
       <section class="sec_02">
         <div class="sec_h">
+          <span id="1"></span>
           <h2>Creative Concierge の<span class="br">サービス概要とサポート流れ</span></h2>
         </div>
         <h3 class="sec_p">
-          <span class="br">「雇用せずに作業効率を上げたい」</span><span class="br">「あまり実施経験がないタスクを専門家に任せたい」</span><span class="br">「庶務を片付けて基幹業務に集中したい」</span><br />
-          <span class="br">日々発生する悩みは</span><span class="br">Creative Concierge が解決します。</span><br /><br />
-          <span class="br">Creative Concierge <span class="br sp_hide">(クリエイティブコンシェルジュ) は</span></span
-          ><span class="br">バックオフィス業務や営業サポート、</span><span class="br">Webサイト作成などの</span><span class="br">クリエイティブ業務までサポート出来る</span><br />
-          <span class="br">お気軽お手頃に頼める</span><span class="br">オンライン事務代行サービスです。</span>
+          <span class="pc"
+            ><span class="br">「雇用せずに作業効率を上げたい」</span><span class="br">「あまり実施経験がないタスクを専門家に任せたい」</span><span class="br">「庶務を片付けて基幹業務に集中したい」</span><br />
+            日々発生する悩みは Creative Concierge が解決します。</span
+          >Creative Concierge (クリエイティブコンシェルジュ) はバックオフィス業務や<br class="pc" />
+          営業サポート、Webサイト作成などのクリエイティブ業務までサポート出来るお気軽お手頃に頼めるオンライン事務代行サービスです。
+          <span class="sp sec_02_span">日々の業務で発生する悩みを解決します。</span>
         </h3>
         <picture>
-          <source srcset="/assets/img/sec_02_img_sp.svg" media="(max-width: 1080px)" />
-          <img class="sec_02_pic" src="/assets/img/sec_02_img.svg" alt="" />
+          <source class="box" data-srcset="/assets/img/sec_02_img_sp.svg" srcset="/assets/img/dummy.svg" media="(max-width: 767px)" />
+          <img class="sec_02_pic box" data-src="/assets/img/sec_02_img.svg" alt="" />
         </picture>
         <div class="contact_btn">
           <a class="contact_btn_g" href="">
-            <p>相談はこちら</p>
+            <p>相談する</p>
           </a>
         </div>
       </section>
-      <div id="2"></div>
       <section class="sec_03">
         <div class="sec_h">
+          <span id="2"></span>
           <h2>Creative Conciergeの特徴</h2>
         </div>
         <h3 class="sec_p">
-          <span class="br">窓口になる経験豊富な担当コンジェルシュから、</span><span class="br">実務能力を持つ対応チームまで、</span><br />
-          <span class="br">Creative Concierge は御社の時間の有効活用を</span><span class="br">サポートし、業務の効率化を実現します！</span><br />
-          その Creative Concierge の最大の特徴とは
+          <span class="br">窓口になる経験豊富な担当コンジェルシュから、</span><span class="br">実務能力を持つ対応チームまで、</span> <span class="br">Creative Concierge は</span><br />
+          <span class="br">御社の時間の有効活用を</span><span class="br">サポートし、業務の効率化を実現します！</span><span class="br">その Creative Concierge の最大の特徴とは</span>
         </h3>
         <div class="sec_03_features">
           <div class="sec_03_feature">
-            <img class="sec_03_feature_img" src="/assets/img/sec_03_feature_01.svg" alt="" />
+            <img class="sec_03_feature_img box" data-src="/assets/img/sec_03_feature_01.svg" alt="" />
             <h4>専任のConciergeで<span class="br">ワンストップ相談</span></h4>
             <p class="sec_03_feature_p">お客様専任のコンシェルジュがお客様のご依頼に最適な人材を判断し依頼を割り振るので、お客様は簡単にご依頼可能です。</p>
           </div>
           <div class="sec_03_feature">
-            <img class="sec_03_feature_img" src="/assets/img/sec_03_feature_02.svg" alt="" />
+            <img class="sec_03_feature_img box" data-src="/assets/img/sec_03_feature_02.svg" alt="" />
             <h4>幅広い業務を依頼可能</h4>
             <p class="sec_03_feature_p">領収書の作成からHP更新まで幅広い業務に対応しています。お客様のニーズに合った依頼が可能です。</p>
           </div>
           <div class="sec_03_feature">
-            <img class="sec_03_feature_img" src="/assets/img/sec_03_feature_03.svg" alt="" />
+            <img class="sec_03_feature_img box" data-src="/assets/img/sec_03_feature_03.svg" alt="" />
             <h4>安心・安全の品質</h4>
             <p class="sec_03_feature_p">経験豊富な人材がお客様を徹底サポート。ご依頼の作業は当たり前。アフターフォローも万全を要しています。</p>
           </div>
         </div>
       </section>
-      <div id="3"></div>
       <section class="sec_04">
         <div class="sec_h">
+          <span id="3"></span>
           <h2>Creative Conciergeの対応事例</h2>
         </div>
         <h3 class="sec_p">
-          <span class="br">Creative Conciergeは</span><span class="br">多くの悩みを解決しています。</span><span class="br">他にも出来ることはたくさんありますので、</span><span class="br">お気楽にご相談ください。</span><br />
-          <span class="br">専任のコンシェルジュが</span><span class="br">丁寧に相談に乗ります。</span>
+          <span class="br">Creative Conciergeは</span><span class="br">多くの悩みを解決しています。</span><span class="br">他にも出来ることはたくさんありますので、</span><br />
+          <span class="br">お気楽にご相談ください。</span><span class="br">専任のコンシェルジュが</span><span class="br">丁寧に相談に乗ります。</span>
         </h3>
         <div class="sec_04_services">
           <div class="sec_04_service">
             <h4>事務</h4>
             <picture
-              ><source media="(max-width: 767px)" srcset="/assets/img/sp_sec_04_service_02.jpg" />
-              <img class="sec_04_service_img" src="/assets/img/sec_04_service_02.jpg" alt=""
+              ><source class="box" media="(max-width: 767px)" data-srcset="/assets/img/sp_sec_04_service_02.jpg" srcset="/assets/img/dumm.svg" />
+              <img class="sec_04_service_img box" data-src="/assets/img/sec_04_service_02.jpg" alt=""
             /></picture>
             <ul class="sec_04_service_ul">
               <li>請求書の作成</li>
@@ -222,8 +231,8 @@
           <div class="sec_04_service">
             <h4>WEB・デザイン</h4>
             <picture>
-              <source media="(max-width: 767px)" srcset="/assets/img/sp_sec_04_service_03.jpg" />
-              <img class="sec_04_service_img" src="/assets/img/sec_04_service_03.jpg" alt=""
+              <source class="box" media="(max-width: 767px)" data-srcset="/assets/img/sp_sec_04_service_03.jpg" srcset="/assets/img/dumm.svg" />
+              <img class="sec_04_service_img box" data-src="/assets/img/sec_04_service_03.jpg" alt=""
             /></picture>
             <ul class="sec_04_service_ul">
               <li>名刺作成</li>
@@ -240,8 +249,8 @@
           <div class="sec_04_service">
             <h4>営業アシスタント</h4>
             <picture>
-              <source media="(max-width: 767px)" srcset="/assets/img/sp_sec_04_service_01.jpg" />
-              <img class="sec_04_service_img" src="/assets/img/sec_04_service_01.jpg" alt=""
+              <source class="box" media="(max-width: 767px)" data-srcset="/assets/img/sp_sec_04_service_01.jpg" srcset="/assets/img/dumm.svg" />
+              <img class="sec_04_service_img box" data-src="/assets/img/sec_04_service_01.jpg" alt=""
             /></picture>
             <ul class="sec_04_service_ul">
               <li>営業リストの作成</li>
@@ -258,19 +267,20 @@
         </div>
         <div class="contact_btn">
           <a class="contact_btn_g" href="">
-            <p>相談はこちら</p>
+            <p>相談する</p>
           </a>
         </div>
       </section>
-      <div id="4"></div>
       <section class="sec_05">
         <div class="sec_h">
-          <h2>事務代行サービス Creative Concierge の料金プラン</h2>
+          <span id="4"></span>
+          <h2>
+            事務代行サービス <span class="br">Creative Concierge の<span class="br">料金プラン</span></span>
+          </h2>
         </div>
         <h3 class="sec_p">
-          <span class="br">Creative Concierge は業界一の身近で</span><span class="br">お手頃なオンライン事務代行サービスを<span class="br">目指しています！</span></span
-          ><br />
-          <span class="br">コンシェルジュだからこそ、</span><span class="br">出来ることがたくさんありますので、</span><span class="br">まずは自分に合うプランについて</span><span class="br">お気軽にご相談ください。</span>
+          Creative Concierge は業界一の身近でお手頃な <br class="sp" />オンライン事務代行サービスを目指しています！<br />
+          コンシェルジュだからこそ、出来ることがたくさんありますので、<br class="sp" />まずは自分に合うプランについてお気軽にご相談ください。
         </h3>
         <div class="sec_05_price_outer">
           <h4 class="sec_05_price_ic">
@@ -298,9 +308,11 @@
             </table>
           </div>
         </div>
-        <img src="/assets/img/sec_05_price2.svg" alt="" />
+        <div class="sec_05_price2">
+          <p>ポイントって…?</p>
+        </div>
         <div class="arrow_pos">
-          <img class="arrow" src="/assets/img/arrow.svg" alt="" />
+          <img class="arrow box" data-src="/assets/img/arrow.svg" alt="" />
         </div>
         <div class="sec_05_point">
           <div class="sec_h">
@@ -314,8 +326,8 @@
                 <span class="sec_05_point_l_ub">10,000ポイント</span>を付与させていただきます。
               </h4>
               <picture>
-                <source media="(max-width: 1080px)" srcset="/assets/img/sp_sec_05_point2.svg" />
-                <img src="/assets/img/sec_05_point2.svg" alt="" />
+                <source class="box" media="(max-width: 1079px)" data-srcset="/assets/img/sp_sec_05_point2.svg" srcset="/assets/img/dummy.svg" />
+                <img class="box" data-src="/assets/img/sec_05_point2.svg" alt="" />
               </picture>
             </div>
             <ul class="sec_05_point_cont_list">
@@ -351,7 +363,7 @@
           </div>
           <div class="contact_btn">
             <a class="contact_btn_g" href="">
-              <p>相談はこちら</p>
+              <p>相談する</p>
             </a>
           </div>
         </div>
@@ -362,71 +374,76 @@
         </div>
         <h3 class="sec_p">料金体系は勿論、サポートの質や<span class="br">対応可能な業務は他社と大きく差があります！</span></h3>
         <div>
-          <picture
-            ><source media="(max-width: 1280px)" srcset="/assets/img/sp_sec_06_compare_table.svg" sizes="" />
-            <img class="sec_06_compare_outer" src="/assets/img/sec_06_compare_table.svg" alt="" />
+          <picture>
+            <source class="box" media="(max-width: 1280px)" data-srcset="/assets/img/sp_sec_06_compare_table.svg" srcset="/assets/img/dummy.svg" sizes="" />
+            <img class="sec_06_compare_outer box" data-src="/assets/img/sec_06_compare_table.svg" alt="" />
           </picture>
         </div>
+        <div class="contact_btn">
+          <a class="contact_btn_g" href="">
+            <p>相談する</p>
+          </a>
+        </div>
       </section>
-      <div id="5"></div>
       <section class="sec_07">
         <div class="sec_h">
-          <h2>Creative Concierge の導入流れ</h2>
+          <span id="5"></span>
+          <h2>Creative Concierge の<span class="br">導入流れ</span></h2>
         </div>
         <h3 class="sec_p">最初の相談から導入まではとにかくシンプル！<span class="br">丁寧なコンジェルシュに何でもフォローさせてください。</span></h3>
         <div class="sec_07_flow_outer">
           <div class="sec_07_flow">
-            <img class="sec_07_flow_img" src="/assets/img/sec_07_flow_01.svg" alt="" />
-            <h4 class="sec_07_flow_h4">01.相談</h4>
-            <p class="sec_07_flow_p">専用のお問い合わせフォームからお気軽にお問合せ下さい。</p>
+            <img class="sec_07_flow_img box" data-src="/assets/img/sec_07_flow_01.svg" alt="" />
+            <h4 class="sec_07_flow_h4">相談</h4>
+            <p class="sec_07_flow_p">問い合わせフォームから気軽にご相談下さい。</p>
           </div>
           <div class="sec_07_flow sec_07_flow_arrow">
-            <img class="sec_07_flow_img" src="/assets/img/sec_07_flow_02.svg" alt="" />
-            <h4 class="sec_07_flow_h4">02.打ち合わせ</h4>
-            <p class="sec_07_flow_p">必要とする代行業務の詳細をヒアリングし最適なプランをご提案いたします。</p>
+            <img class="sec_07_flow_img box" data-src="/assets/img/sec_07_flow_02.svg" alt="" />
+            <h4 class="sec_07_flow_h4">打ち合わせ</h4>
+            <p class="sec_07_flow_p">お客様の要望に応じた最適なプランをご提案します。</p>
           </div>
           <div class="sec_07_flow">
-            <img class="sec_07_flow_img" src="/assets/img/sec_07_flow_03.svg" alt="" />
-            <h4 class="sec_07_flow_h4">03.契約の締結</h4>
-            <p class="sec_07_flow_p">ご契約が完了となりましたらご入金が完了次第サービスの開始となります。</p>
+            <img class="sec_07_flow_img box" data-src="/assets/img/sec_07_flow_03.svg" alt="" />
+            <h4 class="sec_07_flow_h4">お申込み</h4>
+            <p class="sec_07_flow_p">最短で即日対応が可能です。</p>
           </div>
         </div>
         <div class="contact_btn">
           <a class="contact_btn_g" href="">
-            <p>お申込みはこちら</p>
+            <p>相談する</p>
           </a>
         </div>
       </section>
       <section class="sec_08">
         <div class="sec_h">
-          <h2>安心のセキュリティーで<span class="br">大切な情報も任せる</span></h2>
+          <h2>万全なセキュリティーだから<span class="br">大切な情報も任せられる</span></h2>
         </div>
-        <h3 class="sec_p"><span class="br">クリエイティブコンシェルジュは</span><span class="br">お客様の大切な資産を守るため</span><span class="br">セキュリティにも万全を要しています。</span></h3>
+        <h3 class="sec_p"><span class="br">クリエイティブコンシェルジュは</span><span class="br">お客様の大切な資産を守るため</span><span class="br">セキュリティにも万全を期しています。</span></h3>
         <div class="sec_08_security_outer">
-          <img src="/assets/img/sec_08_security_img_01.svg" alt="" class="sec_08_security_img" />
+          <img data-src="/assets/img/sec_08_security_img_01.svg" alt="" class="sec_08_security_img box" />
           <div class="sec_08_security">
             <h4 class="sec_08_security_h4">情報の暗号化</h4>
             <p class="sec_08_security_p">
-              <span class="br">お客様の機密情報は</span><span class="br">専用のセキュリティソフトに</span><span class="br">保管することで、</span><br />
-              <span class="br">外部からの悪意ある攻撃や人為的な</span><span class="br">情報漏洩を徹底的に防ぎます。</span>
+              お客様の機密情報は専用のセキュリティソフトに保管することで、<br />
+              外部からの悪意ある攻撃や人為的な情報漏洩を徹底的に防ぎます。
             </p>
           </div>
         </div>
         <div class="sec_08_security_outer">
-          <img src="/assets/img/sec_08_security_img_02.svg" alt="" class="sec_08_security_img" />
+          <img data-src="/assets/img/sec_08_security_img_02.svg" alt="" class="sec_08_security_img box" />
           <div class="sec_08_security">
             <h4 class="sec_08_security_h4">最新のセキュリティ</h4>
             <p class="sec_08_security_p">
-              <span class="br">常に最新のセキュリティへ</span><span class="br">更新を行っているためウィルスや、</span><br />
-              <span class="br">サイバー攻撃を未然に防ぎます。</span><span class="br">社内でのセキュリティ教育で、</span><br />
-              <span class="br">社員一人一人のリテラシー向上も</span><span class="br">徹底しています。</span>
+              常に最新のセキュリティに更新し、ウィルスやサイバー攻撃を未然に防ぎます。<br />
+              社員一人一人のセキュリティ教育に力を入れ、リテラシーの向上を徹底し、<br />
+              人為的な情報漏洩を防ぎます。
             </p>
           </div>
         </div>
       </section>
-      <div id="6"></div>
       <section class="sec_09">
         <div class="sec_h">
+          <span id="6"></span>
           <h2>お客様からのよくあるご質問</h2>
         </div>
         <div class="sec_09_faq_outer">
@@ -439,24 +456,7 @@
               <div class="sec_09_faq_a">
                 <p>
                   <span class="sec_09_faq_char">A.</span>
-                  はい、可能です。<br />
-                  ホームページ制作、<span class="br">ライディングページ制作、</span><span class="br">ECサイト制作等の制作を承ります。</span>
-                </p>
-              </div>
-            </label>
-          </div>
-          <div class="sec_09_faq">
-            <label class="faq_hamburger">
-              <input class="faq_hamburger_check" type="checkbox" />
-              <div class="sec_09_faq_q">
-                <p><span class="sec_09_faq_char">Q.</span>成果物（デザイン）に対する<span class="br">修正依頼は何回まで可能ですか？</span></p>
-              </div>
-              <div class="sec_09_faq_a">
-                <p>
-                  <span class="sec_09_faq_char">A.</span>
-                  要相談となっております。<br />
-                  <span class="br">お客様のイメージ通りの</span><span class="br">デザインを制作できるよう</span><span class="br">詳細なヒアリングを行いますが、</span><br />
-                  <span class="br">必ずしもイメージと一致するとは限りません。</span><span class="br">担当と相談の上、お決めください。</span>
+                  はい、可能です。<span class="br">ホームページ制作、</span><span class="br">ランディングページ制作、</span><span class="br">ECサイト制作等の制作を承ります。</span>
                 </p>
               </div>
             </label>
@@ -470,9 +470,21 @@
               <div class="sec_09_faq_a">
                 <p>
                   <span class="sec_09_faq_char">A.</span>
-                  はい、可能です。<br />
-                  <span class="br">繰り越し上限は50,000ポイントまで</span><span class="br">となっております。</span><br />
-                  <soan class="br">またポイントの超過分の作業に関しましては</soan><span class="br">双方合意の上で決定いたします。</span>
+                  はい、可能です。繰り越し上限は50,000ポイントまでとなっております。また、ポイントの超過分の作業に関しましては双方合意の上で決定いたします。
+                </p>
+              </div>
+            </label>
+          </div>
+          <div class="sec_09_faq">
+            <label class="faq_hamburger">
+              <input class="faq_hamburger_check" type="checkbox" />
+              <div class="sec_09_faq_q">
+                <p><span class="sec_09_faq_char">Q.</span>個人でも申し込み可能ですか？</p>
+              </div>
+              <div class="sec_09_faq_a">
+                <p>
+                  <span class="sec_09_faq_char">A.</span>
+                  はい、可能です。<br class="sp" />個人法人問わず、申し込み頂けます。
                 </p>
               </div>
             </label>
@@ -489,84 +501,91 @@
       </section>
     </main>
     <div class="contact_outer">
-      <div id="contact_close">
-        <span></span>CLOSE
-      </div>
+      <div id="contact_close"><span></span>CLOSE</div>
       <h2 class="contact_title_h2">お問い合わせ</h2>
       <p class="contact_title_p">
         ※入力していただいた情報は、<spab class="br">SSLによる暗号化通信により安全に送受信されます。</spab><br />
         <span class="red">[必須]</span>の付いている項目は必ずご記入ください。
       </p>
       <div>
-        <form id="formrun_form" class="formrun" action="https://form.run/api/v1/r/ef53q0adrgr4x2450i8fzihl" method="post">
+        <form id="formrun_form" class="formrun" action="https://form.run/api/v1/r/0uhldav50vu7lahxupuu4vee" method="post">
           <h3 class="contact_h3">お客様基本情報</h3>
-          <div class="contact_f_01">
-            <div>
-              <p>お名前<span class="req">[必須]</span></p>
-              <label class="f_label_inner" for="fa_n01">姓</label><input type="text" id="fa_n01" name="姓" class="t01" placeholder="例)山田" data-formrun-required /> <label class="f_label_inner" for="fi_n01">姓</label><input type="text" id="fi_n01" name="名" class="t01" placeholder="例)太郎" data-formrun-required />
+          <div class="contact_f">
+            <div class="contact_f_cont">
+              <p class="contact_f_p">お名前<br /><span class="req">[必須]</span></p>
+              <div><label class="f_label_inner" for="fa_n01">姓</label><input type="text" id="fa_n01" name="姓" class="t01" placeholder="例)山田" data-formrun-required /> <label class="f_label_inner" for="fi_n01">名</label><input type="text" id="fi_n01" name="名" class="t01" placeholder="例)太郎" data-formrun-required /></div>
             </div>
-            <div>
-              <p>フリガナ<span class="req">[必須]</span></p>
-              <label class="f_label_inner" for="fa_n02">姓</label><input type="text" id="fa_n02" name="姓(フリガナ)" class="t01" placeholder="例)ヤマダ" data-formrun-required /> <label class="f_label_inner" for="fi_n02">姓</label><input type="text" id="fi_n02" name="名(フリガナ)" class="t01" placeholder="例)タロウ" data-formrun-required />
+            <div class="contact_f_cont">
+              <p class="contact_f_p">フリガナ<br /><span class="req">[必須]</span></p>
+              <div><label class="f_label_inner" for="fa_n02">姓</label><input type="text" id="fa_n02" name="姓(フリガナ)" class="t01" placeholder="例)ヤマダ" data-formrun-required /> <label class="f_label_inner" for="fi_n02">名</label><input type="text" id="fi_n02" name="名(フリガナ)" class="t01" placeholder="例)タロウ" data-formrun-required /></div>
             </div>
-            <div>
-              <p>
-                <label class="f_label_outer" for="f_cmp">会社名<span class="req">[必須]</span></label>
+            <div class="contact_f_cont">
+              <p class="contact_f_p">
+                <label class="f_label_outer" for="f_cmp">会社名<br /><span class="req">[必須]</span></label>
               </p>
               <input type="text" id="f_cmp" name="会社名" class="t01" placeholder="例)株式会社リグロス" data-formrun-required />
             </div>
-            <div>
-              <p>
+            <div class="contact_f_cont">
+              <p class="contact_f_p">
                 <label class="f_label_outer" for="f_dep">部署名</label>
               </p>
               <input type="text" id="f_dep" name="部署名" class="t01" placeholder="例)開発事業部" />
             </div>
-            <div>
-              <p>
+            <div class="contact_f_cont">
+              <p class="contact_f_p">
                 <label class="f_label_outer" for="f_dir">役職名</label>
               </p>
               <input type="text" id="f_dir" name="部署名" class="t01" placeholder="例)課長" />
             </div>
-            <div>
-              <p>
-                <label class="f_label_inner" for="f_pn">郵便番号<span class="req">[必須]</span></label>
+            <div class="contact_f_cont">
+              <p class="contact_f_p">
+                <label class="f_label_inner" for="f_pn">郵便番号<br /><span class="req">[必須]</span></label>
               </p>
-              <label class="f_label_inner" for="f_pn">〒</label><input type="text" id="f_pn" name="郵便番号" class="t01" placeholder="例)1040041" data-formrun-type="postal-code-jp" data-formrun-required />
+              <div><label class="f_label_inner" for="f_pn">〒</label><input type="text" id="f_pn" name="郵便番号" class="t01" placeholder="例)1040041" data-formrun-type="postal-code-jp" data-formrun-required /></div>
             </div>
-            <div>
-              <p>
-                <label class="f_label_outer" for="f_addr">住所<span class="req">[必須]</span></label>
+            <div class="contact_f_cont">
+              <p class="contact_f_p">
+                <label class="f_label_outer" for="f_addr">住所<br /><span class="req">[必須]</span></label>
               </p>
-              <input type="text" id="f_addr" name="住所" class="t01" placeholder="例)東京都中央区新富1-1-7 BizSQUARE銀座 6階" data-formrun-type="region prefecture-jp" data-formrun-required />
+              <input type="text" id="f_addr" name="住所" class="t01" placeholder="例)東京都中央区新富1-1-7 BizSQUARE銀座 6階" data-formrun-type="region locality street-address" data-formrun-required />
             </div>
-            <div>
-              <p>
-                <label class="f_label_outer" for="f_ph">電話番号<span class="req">[必須]</span></label>
+            <div class="contact_f_cont">
+              <p class="contact_f_p">
+                <label class="f_label_outer" for="f_ph">電話番号<br /><span class="req">[必須]</span></label>
               </p>
-              <input type="tel" id="f_ph" name="電話番号" class="t03" placeholder="例)0352449545" data-formrun-type="tel" data-formrun-required />
+              <input type="tel" id="f_ph" name="電話番号" class="t01" placeholder="例)0352449545" data-formrun-type="tel" data-formrun-required />
             </div>
-            <div>
-              <p>
-                <label class="f_label_outer" for="f_mail">メールアドレス<span class="req">[必須]</span></label>
+            <div class="contact_f_cont">
+              <p class="contact_f_p">
+                <label class="f_label_outer" for="f_mail">メールアドレス<br /><span class="req">[必須]</span></label>
               </p>
-              <input type="email" id="f_mail" name="メールアドレス" class="t02" placeholder="例)info@reglos.co.jp" data-formrun-type="email" data-formrun-required />
+              <input type="email" id="f_mail" name="メールアドレス" class="t01" placeholder="例)info@reglos.co.jp" data-formrun-type="email" data-formrun-required />
             </div>
           </div>
           <h3 class="contact_h3">お問い合わせ内容</h3>
-          <div>
-            <p>件名<span class="req">必須</span></p>
-            <input type="radio" name="件名" value="お問い合わせ" id="f_req1" /><label class="f_label_inner" for="f_req1">お問い合わせ</label> <input type="radio" name="件名" value="資料請求" id="f_req2" /><label class="f_label_inner" for="f_req2">資料請求</label> <input type="radio" name="件名" value="その他" id="f_req3" /><label class="f_label_inner" for="f_req3">その他</label>
+          <div class="contact_f">
+            <div class="contact_f_cont">
+              <p class="contact_f_p">件名<br /><span class="req">[必須]</span></p>
+              <div class="t01"><input type="radio" name="件名" value="お問い合わせ" id="f_req1" /><label class="f_label_inner" for="f_req1">お問い合わせ</label> <input type="radio" name="件名" value="資料請求" id="f_req2" /><label class="f_label_inner" for="f_req2">資料請求</label> <input type="radio" name="件名" value="その他" id="f_req3" /><label class="f_label_inner" for="f_req3">その他</label></div>
+            </div>
+            <div class="contact_f_cont contact_f_textarea">
+              <p class="contact_f_p">
+                <label class="f_label_outer" for="f_req_cont">本文<br /><span class="req">[必須]</span></label>
+              </p>
+              <textarea name="本文" placeholder="例)お問い合わせ" id="f_req_cont" cols="30" rows="10"></textarea>
+            </div>
           </div>
-          <div>
+          <h3 class="contact_h3">個人情報の取り扱いについて</h3>
+          <p class="contact_p">下記事項をご確認の上、同意していただける場合は[同意する]にチェックを入れてください。</p>
+          <div class="f_pp_text"></div>
+          <div class="f_pp_card">
             <p>
-              <label class="f_label_outer" for="f_req_cont">本文<span class="req">必須</span></label>
+              直通のお問い合わせ先<br />
+              株式会社リグロス 開発事業部<br />
+              E-mail：cc-info@reglos.co.jp TEL 03-5244-9545 / FAX 03-5244-9546
             </p>
-            <textarea name="本文" placeholder="例)お問い合わせ" id="f_req_cont" cols="30" rows="10"></textarea>
           </div>
-          <div>
-            <h3 class="contact_h3">お客様基本情報</h3>
-            <textarea name="ご質問・ご要望等"></textarea>
-          </div>
+          <input type="checkbox" name="個人情報の取扱いに同意する" value="同意する" id="f_pp" data-formrun-required /><label class="f_label_inner f_pp" for="f_pp">個人情報の取扱いに同意する<span class="req">[必須]</span></label>
           <div class="_formrun_gotcha">
             <style media="screen">
               ._formrun_gotcha {
@@ -581,21 +600,34 @@
           </div>
           <p>
             <span class="btn2">
-              <button class="cta-btn" type="submit" value="送信する" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信する</button>
+              <button class="cta-btn" type="submit" value="送信する" data-formrun-submitting-text="送信中...">送信する</button>
             </span>
           </p>
         </form>
+      </div>
+      <div class="footer">
+        <div class="footer_align">
+          <div class="footer_logo_outer">
+            <a href="#">
+              <p>月額制のオンライン事務代行サービス</p>
+              <img class="footer_logo_img box" data-src="/assets/img/logo_w.svg" alt="" />
+            </a>
+          </div>
+          <div class="footer_links">
+            <a class="footer_link_border" href="">プライバシーポリシー</a>
+            <a class="footer_link_border" href="">利用規約</a>
+            <a class="footer_link_border" href="">運営会社</a>
+          </div>
+          <small>&copy; Copyright 2021 Reglos Co., Ltd</small>
+        </div>
       </div>
     </div>
     <footer>
       <div class="footer_align">
         <div class="footer_logo_outer">
           <a href="#">
-            <p>
-              クリエイティブまでお気軽お手頃サポート<br />
-              <span class="s_bold">事務代行サービス</span>
-            </p>
-            <img class="footer_logo_img" src="/assets/img/logo_w.svg" alt="" />
+            <p>月額制のオンライン<br class="sp" /><span class="footer_sp">事務代行サービス</span></p>
+            <img class="footer_logo_img box" data-src="/assets/img/logo_w.svg" alt="" />
           </a>
         </div>
         <div class="footer_links">

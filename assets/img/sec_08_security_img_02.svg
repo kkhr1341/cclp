@@ -1,17 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="147.724" height="200.044" viewBox="0 0 147.724 200.044">
-  <g id="グループ_1966" data-name="グループ 1966" transform="translate(-535.138 -10822.984)">
-    <g id="グループ_1848" data-name="グループ 1848" transform="translate(-204.839 10094.535)">
-      <g id="グループ_1847" data-name="グループ 1847" transform="translate(742.477 731.208)">
-        <g id="グループ_1845" data-name="グループ 1845">
-          <path id="パス_2990" data-name="パス 2990" d="M774.708,700.971,703.346,734.2v61.11a106.185,106.185,0,0,0,71.362,100.3,106.2,106.2,0,0,0,71.362-100.3V734.2Z" transform="translate(-703.346 -700.971)" fill="none" stroke="#343434" stroke-width="5"/>
-          <path id="パス_2991" data-name="パス 2991" d="M711.177,702.619V867.678a92.573,92.573,0,0,0,57.747-85.733V729.511Z" transform="translate(-639.815 -687.601)" fill="none" stroke="#343434" stroke-width="3"/>
-          <path id="パス_2992" data-name="パス 2992" d="M704.841,729.511v52.434a92.565,92.565,0,0,0,57.738,85.733V702.619Z" transform="translate(-691.218 -687.601)" fill="none" stroke="#343434" stroke-width="3"/>
-        </g>
-        <g id="グループ_1846" data-name="グループ 1846" transform="translate(35.366 59.597)">
-          <path id="パス_2993" data-name="パス 2993" d="M779.237,743.525a36,36,0,1,1-36.005-36.014A36.006,36.006,0,0,1,779.237,743.525Z" transform="translate(-707.227 -707.511)" fill="#343434"/>
-          <path id="パス_2994" data-name="パス 2994" d="M724.572,744.082l-15.859-15.867L714,722.938,724.572,733.5l23.778-23.778,5.286,5.286Z" transform="translate(-695.173 -689.568)" fill="#fff"/>
-        </g>
-      </g>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100.4 136.14"><path d="M50.7,1.65,1.9,24.36v41.7a72.51,72.51,0,0,0,48.7,68.49,72.4,72.4,0,0,0,48.7-68.5V24.36Z" transform="translate(-0.4 0)" fill="none" stroke="#1a62a3" stroke-width="3"/><path d="M50.7,12V124.65A63.22,63.22,0,0,0,90.1,66.06V30.26Z" transform="translate(-0.4 0)" fill="none" stroke="#1a62a3" stroke-width="2"/><path d="M11.2,30.26v35.8a63.31,63.31,0,0,0,39.4,58.59V12Z" transform="translate(-0.4 0)" fill="none" stroke="#1a62a3" stroke-width="2"/><path d="M75.26,67a24.6,24.6,0,1,1-24.6-24.6A24.58,24.58,0,0,1,75.26,67Z" transform="translate(-0.4 0)" fill="#1a62a3"/><path d="M46.16,79.56l-10.8-10.8,3.6-3.6,7.2,7.2,16.2-16.2,3.6,3.6Z" transform="translate(-0.4 0)" fill="#fff"/></svg>
