@@ -7,6 +7,9 @@ html {
 body.jsc-ac {
   overflow: hidden;
 }
+body.jsc-ac2 {
+  overflow: hidden;
+}
 @media screen and (max-width: 3200px) and (min-width: 3200px) {
   html {
     font-size: 15px;
@@ -45,12 +48,12 @@ body.jsc-ac {
     font-size: 0.5859375vw;
   }
 } */
-#\31,
-#\32,
-#\33,
-#\34,
-#\35,
-#\36 {
+#overview,
+#features,
+#examples,
+#pricing,
+#flow,
+#faq {
   position: relative;
   top: -14.5rem;
 }
@@ -358,7 +361,7 @@ header input.hamburger:checked ~ .menu-menu-1-container li > a {
   background: #e0eaf4;
   border-radius: 0.5rem;
   color: #333;
-  box-shadow: 0 0.6rem 0 #d2e5f8;
+  box-shadow: 0 0.6rem 0 #95b0cb;
   place-items: center;
 }
 
@@ -374,7 +377,7 @@ header input.hamburger:checked ~ .menu-menu-1-container li > a {
 .header_nav > .contact_btn {
   font-size: 1.7rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto;
   justify-self: flex-start;
   gap: 3rem;
   margin-left: 6.1rem;
@@ -400,12 +403,12 @@ header input.hamburger:checked ~ .menu-menu-1-container li > a {
   display: grid;
   font-size: 2.6rem;
   grid-template-columns: 82rem 60rem;
-  color: #fff;
+  color: #333;
   justify-content: center;
   position: relative;
   overflow: hidden;
   background-blend-mode: color;
-  background-color: #33333333 !important;
+  background-color: #f7f6f4b0 !important;
 }
 
 .no-webp .sec_fv {
@@ -417,7 +420,7 @@ header input.hamburger:checked ~ .menu-menu-1-container li > a {
 }
 
 .sec_fv_l {
-  padding: 13.3rem 0 11.3rem;
+  padding: 11.3rem 0 5.3rem;
 }
 
 .sec_fv_r {
@@ -431,17 +434,19 @@ header input.hamburger:checked ~ .menu-menu-1-container li > a {
 .sec_fv_p_lg {
   font-size: 5rem;
   line-height: 7rem;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.08em;
   margin-bottom: 6rem;
-  text-shadow: 0 0.15rem 0.6rem #000f;
+  text-shadow: 0 0.3rem 0.6rem #0003;
   text-align: left;
-  font-weight: 200;
 }
 
 .sec_fv_p_lg .s_bold {
   font-size: 6.5rem;
-  font-weight: 400;
-  line-height: 3.2rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #1a62a3;
+  display: inline-block;
+  margin-top: 1.6rem;
 }
 
 .sec_fv_l > .contact_btn {
@@ -474,32 +479,52 @@ header input.hamburger:checked ~ .menu-menu-1-container li > a {
   background: #f7f6f4;
 }
 
-.sec_01_img {
+.sec_01_video {
+  height: 41.2rem;
+  width: 73.5rem;
+  box-shadow: 0 0.3rem 0.6rem #cfcecc;
+}
+
+.sec_01_video_outer {
+  background: #fff;
   height: 44.2rem;
   width: 77.7rem;
+  padding: 1.5rem 2.1rem;
+  margin: auto;
   box-shadow: 0 0.3rem 0.6rem #cfcecc;
 }
 
 .sec_01_h2 {
   font-size: 4rem;
-  margin-bottom: 4rem;
+  font-weight: 500;
+  margin-bottom: 8.8rem;
 }
 
 .sec_02 {
-  padding: 5rem 0;
+  padding: 6rem 0;
   background: #dddddd;
   text-align: center;
 }
 
 .sec_p {
   font-size: 1.8rem;
-  line-height: 3rem;
+  line-height: 4rem;
   padding: 3rem 0 5rem;
   color: #2e2e2e;
 }
 
 .sec_02 .sec_p {
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: auto;
+  text-align: left;
   padding: 3rem 1rem 5rem;
+}
+.sec_02_span {
+  font-size: 2.1rem;
+  text-align: center;
+  margin-top: 2.7rem;
+  display: block;
 }
 
 .sec_h {
@@ -575,7 +600,7 @@ header input.hamburger:checked ~ .menu-menu-1-container li > a {
 
 .sec_04 h4 {
   font-size: 2.4rem;
-  padding: 2rem 0;
+  padding: 1.8rem 0;
 }
 
 .sec_04_services {
@@ -632,7 +657,7 @@ header input.hamburger:checked ~ .menu-menu-1-container li > a {
 .sec_04 > .contact_btn {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 9rem;
+  margin-top: 5rem;
   font-size: 2.4rem;
 }
 
@@ -752,11 +777,11 @@ header input.hamburger:checked ~ .menu-menu-1-container li > a {
 .sec_05_price_ic0:after {
   position: absolute;
   background: url(/assets/img/ic0_ac.svg) center/contain no-repeat;
-  left: 50%;
+  left: 55%;
   top: 0;
   transform: translateY(30%);
-  height: 4.3rem;
-  width: 3rem;
+  height: 4.1rem;
+  width: 2.8rem;
   content: "";
 }
 .sec_05_yen {
@@ -779,6 +804,7 @@ tr {
   grid-template-columns: auto;
   text-align: left;
   background: #efefef;
+  line-height: 1;
 }
 tr > th {
   padding: 2rem 0 1.65rem 2rem;
@@ -860,6 +886,7 @@ tbody > tr:nth-child(3) > th::after {
   margin-bottom: 4.4rem;
 }
 .sec_05_point_cont_list {
+  width: 60rem;
   justify-self: flex-end;
 }
 
@@ -893,7 +920,7 @@ tbody > tr:nth-child(3) > th::after {
 }
 
 .sec_05_point_cont_li_pt {
-  color: #0b7ac0;
+  color: #1a62a3;
 }
 
 .sec_05_point > .contact_btn {
@@ -991,17 +1018,18 @@ tbody > tr:nth-child(3) > th::after {
 
 .sec_08 > .sec_p {
   padding-bottom: 1.2rem;
+  font-size: 2rem;
 }
 
 .sec_08_security_outer {
   display: grid;
-  grid-template-columns: auto 60rem;
+  grid-template-columns: auto 57.4rem;
   max-width: 95%;
   width: fit-content;
   width: -moz-fit-content;
-  gap: 4.5rem;
+  gap: 4.7rem;
   margin: 4rem auto 0;
-  align-items: center;
+  align-items: end;
 }
 
 .sec_08_security {
@@ -1039,7 +1067,8 @@ tbody > tr:nth-child(3) > th::after {
 }
 
 .sec_09_faq {
-  width: 104rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 92rem;
   max-width: 90%;
   position: relative;
   text-align: left;
@@ -1097,7 +1126,9 @@ tbody > tr:nth-child(3) > th::after {
   transform: translateY(-10rem);
   transition: 0.5s, opacity 0.25s;
   opacity: 0;
-  height: 0;
+  height: fit-content;
+  height: -moz-fit-content;
+  max-height: 0;
 }
 
 .sec_09_faq_char {
@@ -1112,6 +1143,17 @@ tbody > tr:nth-child(3) > th::after {
 .sec_09_faq_a .sec_09_faq_char {
   color: #2086c4;
   line-height: 1;
+}
+.faq_hamburger_check {
+  display: none;
+}
+.faq_hamburger_check:checked ~ .sec_09_faq_a {
+  transform: translateY(0);
+  transition: 0.5s, opacity ease-in-out 0.5s;
+  opacity: 1;
+  max-height: 11rem;
+  padding: 2.7rem 0;
+  padding-left: 14rem;
 }
 
 .sec_09 .contact_btn {
@@ -1396,16 +1438,7 @@ footer {
   box-sizing: content-box;
   height: 4.6rem;
   width: 30.8rem;
-  padding: 1rem 0;
-}
-
-.faq_hamburger_check:checked ~ .sec_09_faq_a {
-  transform: translateY(0);
-  transition: 0.5s, opacity ease-in-out 0.5s;
-  opacity: 1;
-  height: 10rem;
-  padding: 2.7rem 0;
-  padding-left: 14rem;
+  margin: 1rem 0;
 }
 small {
   width: fit-content;
@@ -1418,6 +1451,8 @@ small {
 }
 .box {
   opacity: 0;
+  transition: opacity 1s;
+  vertical-align: top;
 }
 .box.show {
   opacity: 1;
@@ -1454,7 +1489,7 @@ small {
   }
 
   .sec_fv_l {
-    padding: 9.3rem 0 6.2rem;
+    padding: 9.3rem 0 12.2rem;
   }
 
   .sec_fv_r {
@@ -1473,7 +1508,7 @@ small {
     font-size: 8.5rem;
   }
   .sec_fv_l > .contact_btn {
-    margin-top: 5rem;
+    margin-top: 11rem;
     gap: 3rem;
     grid-template-columns: auto;
   }
@@ -1505,6 +1540,7 @@ small {
   }
 
   .sp_hamburger_nav_list {
+    overflow: scroll;
     position: fixed;
     left: 0;
     top: calc(-100vh - 4rem);
@@ -1574,7 +1610,7 @@ small {
     gap: 4rem;
   }
   .sec_04 {
-    padding: 9rem 0 4rem;
+    padding: 4.8rem 0 4rem;
   }
   .sec_04 > .contact_btn {
     margin-top: 4rem;
@@ -1612,16 +1648,8 @@ small {
   .sec_02 .sec_p {
     text-align: left;
     padding: 3rem 0 5rem;
-    width: 42.6rem;
+    width: 101rem;
     margin: auto;
-    font-size: 1.8rem;
-    line-height: 3.2rem;
-  }
-  .sec_02_span {
-    font-size: 2.1rem;
-    text-align: center;
-    margin-top: 2.7rem;
-    display: inline-block;
   }
   .sec_03_features {
     grid-template-columns: repeat(3, 29rem);
@@ -1658,6 +1686,9 @@ small {
     margin-left: 2.4rem;
     width: 24.6rem;
     height: 3.8rem;
+  }
+  .header_nav {
+    height: 7.3rem;
   }
   .sec_fv {
     grid-template-columns: auto;
@@ -1697,6 +1728,10 @@ small {
     gap: 3rem;
     margin-bottom: 5.9rem;
   }
+  .sec_02 .sec_p {
+    width: 42.6rem;
+    line-height: 3.2rem;
+  }
   .sec_p {
     width: 42.1rem;
     text-align: left;
@@ -1711,11 +1746,25 @@ small {
   .sec_p {
     font-size: 1.8rem;
     line-height: 3.2rem;
+    padding-bottom: 4.5rem;
   }
 
   .sec_01_h2 {
     font-size: 3.2rem;
     margin-bottom: 2.8rem;
+  }
+
+  .sec_01_h2 .sec_01_span {
+    font-size: 2.7rem;
+  }
+  .sec_01_video_outer {
+    width: 41.3rem;
+    height: 24.3rem;
+    padding: 1rem 1.5rem;
+  }
+  .sec_01_video {
+    width: 38.3rem;
+    height: 22.3rem;
   }
   .sec_02_pic {
     height: 94.2rem;
@@ -1749,6 +1798,7 @@ small {
     font-size: 2.6rem;
     line-height: 2.6rem;
     padding: 2.1rem 0;
+    z-index: 1;
   }
   .sec_04_service_ul {
     grid-column: 2/3;
@@ -1769,6 +1819,19 @@ small {
   .sec_04_service_p {
     grid-column: 2/3;
     padding: 0 4rem;
+  }
+
+  tr {
+    text-indent: 1.5em;
+  }
+  tbody > tr:nth-child(3) > th::after {
+    transform: translate(1rem, -30%);
+  }
+  .sec_06 {
+    padding: 3.6rem 0;
+  }
+  .sec_06 > .contact_btn {
+    display: none;
   }
   .sec_08_security_outer {
     gap: 2.7rem;
@@ -1835,7 +1898,7 @@ small {
   tr > td {
     padding: 0 0 2.5rem;
   }
-  table tr {
+  table {
     border: solid #707070;
     border-width: 0.3rem 0;
   }
@@ -1903,16 +1966,19 @@ small {
     padding: 2.9rem 0;
     padding-left: 5.4rem;
   }
+  .sec_09_faq_a {
+    padding-left: 5.4rem;
+  }
   .sec_09_faq_char {
     font-size: 3rem;
     left: 1.5rem;
   }
+
   .faq_hamburger_check:checked ~ .sec_09_faq_a {
+    max-height: 20rem;
     padding: 2.9rem 0;
     padding-left: 5.4rem;
-    padding-right: 0.5rem;
-    height: fit-content;
-    height: -moz-fit-content;
+    padding-right: 1.5rem;
   }
 
   .sec_09_faq_q::before {
@@ -1962,6 +2028,7 @@ small {
   .footer_link_border {
     display: block;
     width: fit-content;
+    width: -moz-fit-content;
     margin: 2.4rem auto;
     padding: 0 1rem;
   }

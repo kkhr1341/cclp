@@ -3,7 +3,7 @@ const boxesArray = Array.prototype.slice.call(boxes, 0);
 
 const options = {
   root: null,
-  rootMargin: "0px 0px 480px",
+  rootMargin: "0px 0px 20px",
   threshold: 0,
 };
 const observer = new IntersectionObserver(doWhenIntersect, options);

@@ -1,28 +1,36 @@
-for (const link of document.querySelectorAll("#site-navigation a")) {
+const body_cl = document.getElementById("jsc").classList;
+const body_ch = document.getElementById("hamburger");
+const hamburger_btn = document.getElementById("hamburger_btn");
+
+hamburger_btn.onclick = open;
+function open() {
+  body_cl.toggle("jsc-ac2");
+}
+
+const links = document.querySelectorAll("#site-navigation a");
+for (const link of links) {
   link.onclick = close;
 }
 function close() {
-  console.log("aaa");
-  document.getElementById("hamburger").checked = false;
+  body_cl.remove("jsc-ac");
+  body_cl.remove("jsc-ac2");
+  body_ch.checked = false;
 }
-const contBtnList = Object.setPrototypeOf([...document.querySelectorAll("#jsc .contact_btn_g"), ...document.querySelectorAll("#jsc .contact_btn_b")], NodeList.prototype);
 
-console.log(document.querySelectorAll("#jsc .contact_btn_g"));
+
+const contBtnList = Object.setPrototypeOf([...document.querySelectorAll("#jsc .contact_btn_g"), ...document.querySelectorAll("#jsc .contact_btn_b")], NodeList.prototype);
 for (const modalOpen of contBtnList) {
   modalOpen.onclick = m_open;
 }
 function m_open() {
-  console.log("aaa");
-  document.getElementById("jsc").classList.add("jsc-ac");
+  body_cl.add("jsc-ac");
+  body_cl.remove("jsc-ac2");
+  body_ch.checked = false;
 }
 
-const closecontBtnList = document.querySelectorAll("#jsc ul.header_nav_list a");
-for (const modalClose of closecontBtnList) {
-  close.onclick = m_close;
-}
 const mcl = document.getElementById("contact_close");
 mcl.onclick = m_close;
 function m_close() {
-  console.log("aaa");
-  document.getElementById("jsc").classList.remove("jsc-ac");
+  body_cl.remove("jsc-ac");
 }
+
