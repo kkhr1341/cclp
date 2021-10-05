@@ -7,16 +7,16 @@ function open() {
   body_cl.toggle("jsc-ac2");
 }
 
-const links = document.querySelectorAll("#site-navigation a");
+const links = document.querySelectorAll("#site-navigation a, #jsc .header_nav_a, .footer_logo_outer a");
 for (const link of links) {
   link.onclick = close;
+  console.log(link);
 }
 function close() {
   body_cl.remove("jsc-ac");
   body_cl.remove("jsc-ac2");
   body_ch.checked = false;
 }
-
 
 const contBtnList = Object.setPrototypeOf([...document.querySelectorAll("#jsc .contact_btn_g"), ...document.querySelectorAll("#jsc .contact_btn_b")], NodeList.prototype);
 for (const modalOpen of contBtnList) {
@@ -33,4 +33,3 @@ mcl.onclick = m_close;
 function m_close() {
   body_cl.remove("jsc-ac");
 }
-
