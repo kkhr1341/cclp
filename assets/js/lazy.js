@@ -6,6 +6,7 @@ const options = {
   rootMargin: "0px 0px 20px",
   threshold: 0,
 };
+
 const observer = new IntersectionObserver(doWhenIntersect, options);
 boxesArray.forEach(function (box) {
   observer.observe(box);
