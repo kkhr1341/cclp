@@ -1,1 +1,7 @@
-"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("/service-worker.js").then(()=>{console.log("1")},()=>{console.log("0")}).catch(console.error.bind(console))});
+document.getElementById('f_req1').classList.contains('formrun-has-success');
+document.getElementById('fa_n01').classList.contains('formrun-has-success');
+document.getElementById('fi_n01').classList.contains('formrun-has-success');
+document.getElementById('f_cmp').classList.contains('formrun-has-success');
+document.getElementById('f_ph').classList.contains('formrun-has-success');
+document.getElementById('f_mail').classList.contains('formrun-has-success');
+document.getElementById('f_pp').classList.contains('formrun-has-success');
