@@ -1,0 +1,4 @@
+user-agent: googlebot
+noindex: /contact/
+disallow: /contact/
+Sitemap: https://creative-concierge.net/sitemap.xml
