@@ -12,6 +12,6 @@ function close() {
 }
 const vt = document.getElementById("vt");
 function player() {
-  return (this.volume = 0.1), (this.controls = !0), !1;
+  return (this.muted = 0),(this.volume = 0.1), (this.controls = !0), !1;
 }
 null != vt && vt.addEventListener("click", player);
