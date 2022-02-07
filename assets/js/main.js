@@ -35,10 +35,11 @@ const ftex = document.getElementById("f_req_cont");
 if (fm == 2 || fm == 3 || fm == 6 || fm == 12) {
   fcontr.classList.add("formrun-has-success");
   ftex.classList.add("formrun-has-success");
-  fcontr.checked = true;
   if (fm != 2) {
+    fcontr.checked = true;
     ftex.value = fm + "ヶ月プランの契約をしたい";
-  }else{
-    ftex.value = fm + "週間お試しプランの契約をしたい";
+  } else {
+    document.getElementById("f_req1").checked = true;
+    ftex.value = fm + "週間お試しプランをしたい";
   }
 }

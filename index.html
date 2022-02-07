@@ -40,7 +40,7 @@ f.parentNode.insertBefore(j, f);
 <script nonce="ran123dom">
 console.log(null);
 </script>
-<script nonce="ran123dom" src="/assets/js/main.js" defer></script>
+<script nonce="ran123dom" src="/main.js" defer></script>
 <script nonce="ran123dom" src="/assets/js/lazy.js" defer></script>
 <script nonce="ran123dom" src="/assets/js/common.js" defer></script>
 <script nonce="ran123dom" src="/assets/js/modernizr-custom.js" defer></script>
@@ -105,7 +105,7 @@ s.parentNode.insertBefore(tk, s);
 <li><a href="/#faq">よくある質問</a></li>
 </ul>
 <div class="contact_btn">
-<a class="contact_btn_g" data-test-id="head_cta" href="/contact/">
+<a class="contact_btn_g" data-test-id="head_cta" href="/contact/?form=2">
 <p>無料で試す</p>
 </a>
 </div>
@@ -117,9 +117,12 @@ s.parentNode.insertBefore(tk, s);
 </p>
 </div>
 </nav>
-<div class="contact_btn">
-<a class="contact_btn_g" data-test-id="head_cta" href="/contact/">
+<div class="contact_btn dual">
+<a class="contact_btn_g" data-test-id="head_cta" href="/contact/?form=2">
 <p>無料で試す</p>
+</a>
+<a class="contact_btn_b" data-test-id="head_cta" href="/contact/">
+<p>お問い合わせ</p>
 </a>
 </div>
 </div>
@@ -128,11 +131,19 @@ s.parentNode.insertBefore(tk, s);
 <main>
 <section class="sec_fv">
 <div class="sec_fv_l">
-<p class="sec_fv_p_lg">事務業務から<span class="br">クリエイティブまで</span><br />お気軽お手頃サポート</p>
-<p class="sec_fv_p_lg">月額制のオンライン<br /><span class="s_bold">事務代行サービス</span></p>
-<div class="contact_btn">
-<a class="contact_btn_g" data-test-id="mainvisual_cta" href="/contact/">
+<p class="sec_fv_p_lg">事務業務から<span class="br">クリエイティブまで</span><span class="br">お気軽お手頃サポート</span></p>
+<p class="sec_fv_p_lg">月額制のオンライン</p>
+<p class="sec_fv_p_lg s_bold">事務代行サービス</p>
+<picture>
+<source class="box" data-srcset="/assets/img/sp_top_fplc.svg" srcset="/assets/img/dummy.png" media="(max-width: 767px)" />
+<img class="sec_fv_fplc box" data-src="/assets/img/top_fplc.svg" alt="" />
+</picture>
+<div class="contact_btn dual">
+<a class="contact_btn_g" data-test-id="mainvisual_cta" href="/contact/?form=2">
 <p>無料で試す</p>
+</a>
+<a class="contact_btn_b" data-test-id="head_cta" href="/contact/">
+<p>お問い合わせ</p>
 </a>
 </div>
 </div>
@@ -140,7 +151,7 @@ s.parentNode.insertBefore(tk, s);
 </section>
 <section class="sec_01">
 <div class="contact_btn">
-<a class="contact_btn_g" data-test-id="mainvisual_cta" href="/contact/">
+<a class="contact_btn_g" data-test-id="mainvisual_cta" href="/contact/?form=2">
 <p>無料で試す</p>
 </a>
 </div>
@@ -169,7 +180,7 @@ Creative Concierge (クリエイティブコンシェルジュ) はバックオ�
 <img class="sec_02_pic box" data-src="/assets/img/sec_02_img.svg" alt="以上のCreative Concierge のサービス概要とサポートの流れを図で表す画像" />
 </picture>
 <div class="contact_btn">
-<a class="contact_btn_g" data-test-id="sec02_cta" href="/contact/">
+<a class="contact_btn_g" data-test-id="sec02_cta" href="/contact/?form=2">
 <p>無料で試す</p>
 </a>
 </div>
@@ -264,7 +275,7 @@ Creative Concierge は多くの悩みを解決しています。他にも出来�
 </div>
 </div>
 <div class="contact_btn">
-<a class="contact_btn_g" data-test-id="sec04_cta" href="/contact/">
+<a class="contact_btn_g" data-test-id="sec04_cta" href="/contact/?form=2">
 <p>無料で試す</p>
 </a>
 </div>
@@ -285,28 +296,34 @@ Creative Concierge は業界一の身近でお手頃な オンライン事務代
 <table>
 <tr>
 <th><a href="/contact/?form=2">お試しプラン</a></th>
-<td class="sec_05_price_rc_td"><a href="/contact/?form=2"><span class="sec_05_table_free">無料</span><span class="sec_05_table_price">0</span><span class="sec_05_table_yen">円</span></a></td>
+<td class="sec_05_price_rc_td">
+<a href="/contact/?form=2"><span class="sec_05_table_free">無料</span><span class="sec_05_table_price">0</span><span class="sec_05_table_yen">円</span></a>
+</td>
 <td><a href="/contact/?form=2">2,000ポイント</a></td>
 </tr>
 <tr>
 <th><a href="/contact/?form=3">3カ月更新プラン</a></th>
-<td class="sec_05_price_rc_td"><a href="/contact/?form=3">55,000<span class="sec_05_table_yen">円</span><span class="sec_05_price_rc_chara">/月</span></a></td>
+<td class="sec_05_price_rc_td">
+<a href="/contact/?form=3">55,000<span class="sec_05_table_yen">円</span><span class="sec_05_price_rc_chara">/月</span></a>
+</td>
 <td><a href="/contact/?form=3">10,000ポイント</a></td>
 </tr>
 <tr>
 <th><a href="/contact/?form=6">6カ月更新プラン</a></th>
-<td class="sec_05_price_rc_td"><a href="/contact/?form=6">50,000<span class="sec_05_table_yen">円</span><span class="sec_05_price_rc_chara">/月</span></a></td>
+<td class="sec_05_price_rc_td">
+<a href="/contact/?form=6">50,000<span class="sec_05_table_yen">円</span><span class="sec_05_price_rc_chara">/月</span></a>
+</td>
 <td><a href="/contact/?form=6">10,000ポイント</a></td>
 </tr>
 <tr>
 <th><a href="/contact/?form=12">12カ月更新プラン</a></th>
-<td class="sec_05_price_rc_td"><a href="/contact/?form=12">45,000<span class="sec_05_table_yen">円</span><span class="sec_05_price_rc_chara">/月</span></a></td>
+<td class="sec_05_price_rc_td">
+<a href="/contact/?form=12">45,000<span class="sec_05_table_yen">円</span><span class="sec_05_price_rc_chara">/月</span></a>
+</td>
 <td><a href="/contact/?form=12">10,000ポイント</a></td>
 </tr>
 </table>
-<p class="sec_05_price_att">
-※お試しプランは初回ご契約時にのみ 2週間適用
-</p>
+<p class="sec_05_price_att">※お試しプランは初回ご契約時にのみ 2週間適用</p>
 </div>
 </div>
 <div class="sec_05_price2">
@@ -362,11 +379,27 @@ Creative Concierge へご加入頂いたユーザー様へ<br />
 </li>
 </ul>
 </div>
+</div>
+<p class="sec_05_trial_f_sp">まずはお試ししたい<span>という方は、、、</span></p>
+<div class="sec_05_trial">
+<img src="/assets/img/sec_05_trial_fplc.svg" alt="" />
+<div>
+<p class="sec_05_trial_f">まずはお試ししたい<span>という方は、、、</span></p>
+<div class="sec_05_trial_wrap">
+<p class="sec_05_trial_s">
+初回利用限定の<br />
+無料トライアル
+</p>
+<p class="sec_05_trial_pt">2,000</p>
+<p class="sec_05_trial_e"><span>ポイント分</span>お試し頂けます！</p>
+</div>
+</div>
+<div class="sec_05_trial_sm"><small>※初回ご契約時にのみ 2週間適用</small></div>
+</div>
 <div class="contact_btn">
-<a class="contact_btn_g" data-test-id="sec05_cta" href="/contact/">
+<a class="contact_btn_g" data-test-id="sec05_cta" href="/contact/?form=2">
 <p>無料で試す</p>
 </a>
-</div>
 </div>
 </section>
 <section class="sec_06">
@@ -381,7 +414,7 @@ Creative Concierge へご加入頂いたユーザー様へ<br />
 </picture>
 </div>
 <div class="contact_btn">
-<a class="contact_btn_g" data-test-id="sec06_cta" href="/contact/">
+<a class="contact_btn_g" data-test-id="sec06_cta" href="/contact/?form=2">
 <p>無料で試す</p>
 </a>
 </div>
@@ -410,7 +443,7 @@ Creative Concierge へご加入頂いたユーザー様へ<br />
 </div>
 </div>
 <div class="contact_btn">
-<a class="contact_btn_g" data-test-id="sec07_cta" href="/contact/">
+<a class="contact_btn_g" data-test-id="sec07_cta" href="/contact/?form=2">
 <p>無料で試す</p>
 </a>
 </div>
@@ -492,7 +525,7 @@ Creative Concierge へご加入頂いたユーザー様へ<br />
 </div>
 </div>
 <div class="contact_btn">
-<a class="contact_btn_g" data-test-id="sec09_cta" href="/contact/">
+<a class="contact_btn_g" data-test-id="sec09_cta" href="/contact/?form=2">
 <p>無料で試す</p>
 </a>
 </div>
